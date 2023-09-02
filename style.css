@@ -1,0 +1,108 @@
+#mainBox{
+    display: flex
+}
+
+#topBoxMain{
+    display: flex;
+    background-color: rgba(3, 20, 46, 0.801);
+}
+
+#topBoxMain h1{
+    font-size: 300%;
+}
+
+#ausbildung{
+    display: flex;
+}
+
+#topBoxMainRight{
+    display: table-cell;
+    text-align: center;
+    flex-grow: 1;
+    vertical-align: middle;
+    color: white;
+
+}
+
+.responsive {
+    max-width: 10%;
+    min-width: 225px;
+    height: auto;
+  }
+
+#mainboxLeft{
+   width: 50vw;
+}
+
+#contactLinks a:link {
+    color: lightgray;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+#contactLinks a:visited {
+    color: lightgray;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+#contactLinks a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+#contactLinks a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+body{
+    font-family: 'Trebuchet MS';
+  }
+
+#topBoxMainRight h2{
+    color: lightgray;
+  }
+
+#contactLinks .material-icons{
+    vertical-align: bottom;
+  }
+
+#mainBoxRight a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+#mainBoxRight a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+#mainBoxRight a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+#mainBoxRight a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+#mainBoxRight{
+display: flex;
+flex-direction: column;
+}
+
+footer{
+    background-color: lightslategray;
+    color: white;
+}
+
+
+
